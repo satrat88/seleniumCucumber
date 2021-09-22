@@ -1,0 +1,981 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11805000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:20:03.868Z",
+        "line": 14,
+        "name": "Search Company name in Google Input Company Name and Click Enter",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-input-company-name-and-click-enter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3352000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search with company name as JP Morgan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JP Morgan",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompany(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13823000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 46
+                },
+                {
+                  "val": "www.jpmorgan.com",
+                  "offset": 62
+                },
+                {
+                  "val": "true",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validate the J.P. Morgan logo logo displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan logo",
+                  "offset": 18
+                },
+                {
+                  "val": "true",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6798000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:20:34.470Z",
+        "line": 15,
+        "name": "Search Company name in Google Input Company Name and Click Enter",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-input-company-name-and-click-enter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 766000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3722000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search with company name as J.P. Morgan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompany(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43378000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 46
+                },
+                {
+                  "val": "www.jpmorgan.com",
+                  "offset": 62
+                },
+                {
+                  "val": "true",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validate the J.P. Morgan logo logo displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan logo",
+                  "offset": 18
+                },
+                {
+                  "val": "true",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5178000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:21:29.226Z",
+        "line": 16,
+        "name": "Search Company name in Google Input Company Name and Click Enter",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-input-company-name-and-click-enter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 792000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4301000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search with company name as J P Morgan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J P Morgan",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompany(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46378000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 46
+                },
+                {
+                  "val": "www.jpmorgan.com",
+                  "offset": 62
+                },
+                {
+                  "val": "true",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validate the J.P. Morgan logo logo displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan logo",
+                  "offset": 18
+                },
+                {
+                  "val": "true",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8441000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:22:25.935Z",
+        "line": 17,
+        "name": "Search Company name in Google Input Company Name and Click Enter",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-input-company-name-and-click-enter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1394000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4062000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search with company name as J.P. Morgan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompany(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11032000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The page user clicked loads successfully with other title and www.other.com false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "other title",
+                  "offset": 46
+                },
+                {
+                  "val": "www.other.com",
+                  "offset": 62
+                },
+                {
+                  "val": "false",
+                  "offset": 76
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validate the other logo logo displayed false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "other logo",
+                  "offset": 18
+                },
+                {
+                  "val": "false",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7454000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:22:50.965Z",
+        "line": 27,
+        "name": "Search Company name in Google and select from AutoSuggestion Dropdown option",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-and-select-from-autosuggestion-dropdown-option;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 761000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3591000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User search with company name JP Morgan and selelct from AutoSuggestion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JP Morgan",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompanySelectDropDown(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35238000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 46
+                },
+                {
+                  "val": "www.jpmorgan.com",
+                  "offset": 62
+                },
+                {
+                  "val": "true",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User validate the J.P. Morgan logo logo displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan logo",
+                  "offset": 18
+                },
+                {
+                  "val": "true",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5952000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:23:38.066Z",
+        "line": 28,
+        "name": "Search Company name in Google and select from AutoSuggestion Dropdown option",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-and-select-from-autosuggestion-dropdown-option;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6283000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User search with company name J.P. Morgan and selelct from AutoSuggestion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompanySelectDropDown(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15501000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 46
+                },
+                {
+                  "val": "www.jpmorgan.com",
+                  "offset": 62
+                },
+                {
+                  "val": "true",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User validate the J.P. Morgan logo logo displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan logo",
+                  "offset": 18
+                },
+                {
+                  "val": "true",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8653000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:24:06.689Z",
+        "line": 29,
+        "name": "Search Company name in Google and select from AutoSuggestion Dropdown option",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-and-select-from-autosuggestion-dropdown-option;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 766000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4922000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User search with company name J P Morgan and selelct from AutoSuggestion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J P Morgan",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompanySelectDropDown(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14037000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 46
+                },
+                {
+                  "val": "www.jpmorgan.com",
+                  "offset": 62
+                },
+                {
+                  "val": "true",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User validate the J.P. Morgan logo logo displayed true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan logo",
+                  "offset": 18
+                },
+                {
+                  "val": "true",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6507000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and navigate to Google.com",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.navigateToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T16:24:35.127Z",
+        "line": 30,
+        "name": "Search Company name in Google and select from AutoSuggestion Dropdown option",
+        "description": "",
+        "id": "j.p.-morgan-company-name-search-in-google;search-company-name-in-google-and-select-from-autosuggestion-dropdown-option;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 766000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4397000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User search with company name J.P. Morgan and selelct from AutoSuggestion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.searchCompanySelectDropDown(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19791000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click\u0027s on the first results returned in the search",
+            "match": {
+              "location": "stepDefinitions.SearchJPMGoogle.i_click_first_page_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The page user clicked loads successfully with other title and www.other.com false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "other title",
+                  "offset": 46
+                },
+                {
+                  "val": "www.other.com",
+                  "offset": 62
+                },
+                {
+                  "val": "false",
+                  "offset": 76
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.verifyPageLoaded(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User validate the other logo logo displayed false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "other logo",
+                  "offset": 18
+                },
+                {
+                  "val": "false",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.SearchJPMGoogle.validateCompanyLogoPresent(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "J.P. Morgan Company name Search in Google",
+    "description": "",
+    "id": "j.p.-morgan-company-name-search-in-google",
+    "keyword": "Feature",
+    "uri": "file:Features/SearchJPM.feature",
+    "tags": []
+  }
+]

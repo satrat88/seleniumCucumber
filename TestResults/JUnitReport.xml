@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="303.528">
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google Input Company Name and Click Enter" time="30.571">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name as JP Morgan.............................passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true.passed
+Then User validate the J.P. Morgan logo logo displayed true.................passed
+]]></system-out>
+</testcase>
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google Input Company Name and Click Enter 2" time="54.741">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name as J.P. Morgan...........................passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true.passed
+Then User validate the J.P. Morgan logo logo displayed true.................passed
+]]></system-out>
+</testcase>
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google Input Company Name and Click Enter 3" time="56.709">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name as J P Morgan............................passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true.passed
+Then User validate the J.P. Morgan logo logo displayed true.................passed
+]]></system-out>
+</testcase>
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google Input Company Name and Click Enter 4" time="25.03">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name as J.P. Morgan...........................passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with other title and www.other.com false.passed
+Then User validate the other logo logo displayed false......................passed
+]]></system-out>
+</testcase>
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google and select from AutoSuggestion Dropdown option" time="47.101">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name JP Morgan and selelct from AutoSuggestion.passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true.passed
+Then User validate the J.P. Morgan logo logo displayed true.................passed
+]]></system-out>
+</testcase>
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google and select from AutoSuggestion Dropdown option 2" time="28.623">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name J.P. Morgan and selelct from AutoSuggestion.passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true.passed
+Then User validate the J.P. Morgan logo logo displayed true.................passed
+]]></system-out>
+</testcase>
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google and select from AutoSuggestion Dropdown option 3" time="28.438">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name J P Morgan and selelct from AutoSuggestion.passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with J.P. Morgan and www.jpmorgan.com true.passed
+Then User validate the J.P. Morgan logo logo displayed true.................passed
+]]></system-out>
+</testcase>
+<testcase classname="J.P. Morgan Company name Search in Google" name="Search Company name in Google and select from AutoSuggestion Dropdown option 4" time="31.534">
+<system-out><![CDATA[Given User launch browser and navigate to Google.com........................passed
+Then User search with company name J.P. Morgan and selelct from AutoSuggestion.passed
+And User click's on the first results returned in the search................passed
+When The page user clicked loads successfully with other title and www.other.com false.passed
+Then User validate the other logo logo displayed false......................passed
+]]></system-out>
+</testcase>
+</testsuite>
